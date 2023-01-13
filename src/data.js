@@ -31,10 +31,10 @@ const services =
 
 const tours =
     [
-        { id: 1, img: tour1Img, date: "september 15th, 2020", title: "tibet advanture", text: lorem.generateParagraphs(1), destination: "china", duration: "6 days", cost: "from 2100$" },
-        { id: 2, img: tour2Img, date: "december 5th, 2020", title: "best oof java", text: lorem.generateParagraphs(1), destination: "indonesia", duration: "11 days", cost: "from 1400$" },
-        { id: 3, img: tour3Img, date: "october 1st, 2020", title: "explore hong kong", text: lorem.generateParagraphs(1), destination: "hong kong", duration: "8 days", cost: "5000$" },
-        { id: 4, img: tour4Img, date: "august 26th, 2020", title: "kenya highlights", text: lorem.generateParagraphs(1), destination: "kenya", duration: "20 days", cost: "3300$" }
+        { id: 1, img: tour1Img, date: `september 15th, ${new Date().getFullYear()}`, title: "tibet advanture", text: lorem.generateParagraphs(1), destination: "china", duration: "6 days", cost: "from 2100$" },
+        { id: 2, img: tour2Img, date: `december 5th, ${new Date().getFullYear()}`, title: "best oof java", text: lorem.generateParagraphs(1), destination: "indonesia", duration: "11 days", cost: "from 1400$" },
+        { id: 3, img: tour3Img, date: `october 1st, ${new Date().getFullYear()}`, title: "explore hong kong", text: lorem.generateParagraphs(1), destination: "hong kong", duration: "8 days", cost: "5000$" },
+        { id: 4, img: tour4Img, date: `august 26th, ${new Date().getFullYear()}`, title: "kenya highlights", text: lorem.generateParagraphs(1), destination: "kenya", duration: "20 days", cost: "3300$" }
     ]
 
 
